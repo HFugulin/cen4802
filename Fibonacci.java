@@ -8,6 +8,12 @@
 // Don't hard-code the results; output the appropriate variables.
 public class Fibonacci {
     // Recursive static method to return the nth term in the Fibonacci sequence
+    /**
+     * Calculates the nth term in the Fibonacci sequence using recursion.
+     *
+     * @param n The position in the Fibonacci sequence (must be a non-negative integer).
+     * @return The nth term in the Fibonacci sequence.
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
